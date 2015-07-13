@@ -14,5 +14,9 @@ public class GamephaseManager {
 		return actual;
 	}
 	
+	public void setGamephase(Gamephase gp){
+		this.actual = gp;
+	}
+	
 	
 }

@@ -38,12 +38,21 @@ public class Module extends JavaPlugin {
 	public final void onEnable(){
 		Bukkit.getPluginManager().registerEvents(new PlayerListener(this), this);
 		Bukkit.getPluginManager().registerEvents(new ActionListener(this), this);
+		
+		
+		setup();
 	}
 	
 	
 	
 	@Override
 	public final void onDisable(){
+		
+	}
+	
+	
+	
+	public void setup(){
 		
 	}
 	
